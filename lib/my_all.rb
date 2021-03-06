@@ -7,4 +7,10 @@ def my_all?(collection)
     responses << yeild(collection[i])
     i += 1
   end
+  
+  if responses.include?(false)
+    false
+  else
+    true
+  end
 end
